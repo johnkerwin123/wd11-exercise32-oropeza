@@ -1,0 +1,17 @@
+
+
+.footer {
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  background-color: rgb(230, 162, 73);
+}
+.social-icons i{
+  font-size: 25px;
+  color: black;
+}
+.social-icons i:hover{
+  color: white;
+}

@@ -1,13 +1,26 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+import HeadingPart from './components/HeadingPart';
+import ImageLayout from './components/ImageLayout';
+import AboutDota from './components/aboutDota';
+import MapDota from './components/mapDota';
+import FooterLayout from './components/footerLayout';
 import './index.css';
-import App from './App';
+// import App from './App'
 import reportWebVitals from './reportWebVitals';
+import CardLayout from './components/cardLayout';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import './css/footer.css'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+     <HeadingPart/>
+     <ImageLayout/>
+     <AboutDota/>
+     <MapDota/>
+     <CardLayout/>
+     <FooterLayout/>
   </React.StrictMode>
 );
 
